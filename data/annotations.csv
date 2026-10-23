@@ -1,0 +1,4 @@
+id,exclude,type,arch,app,il,iq,vin,vout,vdo,psrr,psrr_f,dv,ts,cout,fom,ce,node,area,cal,note,by
+# One row per paper. id = IEEE article number (last number in the Xplore URL). Empty keeps the automatic value; - or NA removes it.
+# type = Analog, Digital or Hybrid. arch/app take several values separated by ";" (e.g. Capacitor-less;FVF). by naming an AI tool (Codex, GPT, Claude ...) marks the row as AI-extracted.
+# Units: il, iq in A (100m, 14u, 54n); vin, vout, vdo, dv in V (150m); psrr in dB (negative) at psrr_f in Hz; ts in s; cout in F (100p); fom in s (Cout*dV*Iq/Il^2); ce in %; node in nm; area in mm2.
