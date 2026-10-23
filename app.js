@@ -949,9 +949,9 @@
       if (ALL.length) {
         $("lede").innerHTML = "<strong>" + nC.toLocaleString() + " LDO and linear-regulator papers</strong> from " + venues +
           " IEEE circuits venues, " + esc(fmtDate(META.coverage_from)) + " to " + esc(fmtDate(META.coverage_to)) +
-          ". Updated " + esc(META.updated || "") + (META.last_run_new ? ", with " + META.last_run_new + " papers added in the latest update." : ".");
+          ". Updated automatically every month; last update " + esc(META.updated || "") + (META.last_run_new ? ", with " + META.last_run_new + " papers added in the latest update." : ".");
       } else {
-        $("lede").textContent = "An index of LDO and linear-regulator papers in ISSCC, VLSI, JSSC, CICC, ESSCIRC, A-SSCC, SSC-L, TCAS-I/II and TVLSI.";
+        $("lede").textContent = "A monthly index of LDO and linear-regulator papers in ISSCC, VLSI, JSSC, CICC, ESSCIRC, A-SSCC, SSC-L, TCAS-I/II and TVLSI.";
       }
       $("fresh").parentNode.hidden = !META.last_run_new;
 
