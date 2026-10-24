@@ -1,27 +1,27 @@
 {
  "title": "LDO Census",
  "source": "IEEE Xplore API (records collected by adc-census)",
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "coverage_from": "1997-01",
  "coverage_to": "2026-10",
- "total": 399,
- "core": 277,
+ "total": 574,
+ "core": 399,
  "by_venue": {
   "JSSC": 73,
   "TCAS-II": 69,
   "TCAS-I": 56,
-  "VLSI": 7,
-  "CICC": 3,
-  "ISSCC": 16,
+  "VLSI": 30,
+  "CICC": 26,
+  "ISSCC": 47,
   "TVLSI": 27,
-  "A-SSCC": 5,
+  "A-SSCC": 33,
   "SSC-L": 20,
-  "ESSCIRC": 1
+  "ESSCIRC": 18
  },
  "by_type": {
-  "Analog": 186,
-  "Hybrid": 32,
-  "Digital": 59
+  "Analog": 242,
+  "Hybrid": 58,
+  "Digital": 99
  },
  "last_run_new": 0
 }
